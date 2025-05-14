@@ -1,0 +1,43 @@
+{
+  "name": "presidio-launchpad-msec-batch2-backend",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LingeshwaranR/presidio-launchpad-msec-batch2-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LingeshwaranR/presidio-launchpad-msec-batch2-backend/issues"
+  },
+  "homepage": "https://github.com/LingeshwaranR/presidio-launchpad-msec-batch2-backend#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/sequelize": "^4.28.20",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "sequelize-cli": "^6.6.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
