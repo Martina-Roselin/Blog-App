@@ -1,0 +1,89 @@
+.blogWrapper {
+    width: 80%;
+    margin: 2rem auto;
+    background: #ffffff;
+    padding: 0 2rem 1rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #444;
+  }
+  
+  .inputGroup input,
+  .inputGroup textarea {
+    width: 97%;
+    min-width: 97%;
+    max-width: 97%;
+    max-height: 75%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+  }
+
+  .inputGroup textarea {
+    min-height: 30rem;
+  }
+  
+  .inputGroup input:focus,
+  .inputGroup textarea:focus {
+    outline: none;
+    border-color: #8a4e2c;
+  }
+  
+  .submitButton {
+    padding: 0.9rem 1.5rem;
+    background-color: #000000;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
+  .submitButton:hover {
+    background-color: #d97706;
+  }
+  
+  .errorText {
+    color: red;
+    font-size: 0.75rem; 
+    margin-top: 4px; 
+    max-width: 100%; 
+    word-break: break-word;
+}
+
+.blogWrapper {
+scrollbar-width:thin; 
+scrollbar-color: #c5c2c2 #f0f0f0;
+}
+  

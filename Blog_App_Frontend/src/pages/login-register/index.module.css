@@ -1,0 +1,126 @@
+.loginWrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    color: white;
+}
+
+.loginFormWrapper {
+    width: 100%;
+    background: linear-gradient(to right, #232526, #414345);
+    align-content: center;
+    justify-items: center;
+}
+
+.loginImage {
+    width: 100%;
+}
+
+.loginForm {
+    width: 30rem;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    align-content: center;
+    justify-items: center;
+}
+
+.loginForm h2{
+    margin-bottom: 3rem;
+}
+
+/* Style for input groups */
+.inputGroup {
+    width: 20rem;
+    margin-bottom: 20px;
+}
+
+
+.inputGroup label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    color: #f6e8dbcb;
+    letter-spacing: 0.06rem;
+}
+
+
+.inputGroup input {
+    width: 90%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Input focus effect */
+.inputGroup input:focus {
+    border-color: #91653d;
+    outline: none;
+}
+
+
+/* Button styling */
+.loginButton {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px; 
+    background-color: #eeb37b;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Button hover effect */
+.loginButton:hover {
+    background-color: rgb(255, 166, 1);
+}
+
+.loginButtonText {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 8px;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: #000000;
+}
+
+.errorText {
+    color: red;
+    font-size: 1rem; 
+    margin-top: 8px;
+    max-width: 100%; 
+    word-break: break-word;
+}
+
+.loginErrorText {
+    text-align: center;
+    color: red;
+    font-size: 1rem; 
+    margin-top: 8px;
+    max-width: 100%; 
+    word-break: break-word;
+}
+
+.toggleModeText {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #ceb6a0cb;
+  }
+  
+  .toggleModeText span {
+    color: #91653d;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  

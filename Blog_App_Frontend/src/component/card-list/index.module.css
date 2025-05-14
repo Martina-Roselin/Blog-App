@@ -1,0 +1,13 @@
+.container {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    padding: 0 6rem;
+}
+
+.cardsBody {
+    margin: 1rem 0;
+}

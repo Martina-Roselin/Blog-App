@@ -1,0 +1,141 @@
+.cardWrapper {
+    width: 20rem;
+    height: 25.5rem;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 22px rgba(0, 0, 0, 0.15);
+}
+
+.cardWrapper:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.cardImage {
+    height: 12rem;
+    width: 100%;
+}
+
+.cardImage img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.cardContent {
+    padding: 0 1rem;
+    flex-grow: 1;
+}
+
+.cardDescription p{
+    line-height: 1.5rem;
+    font-weight: 100;
+    color: rgb(75, 83, 90);
+    word-break: break-all;
+}
+
+.cardAction {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardEditViewAction {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cardEditButton {
+    border: none;
+    border-radius: 16px; 
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #000000;
+    justify-content: space-between;
+    padding: 0.4rem 1rem;
+    background-color: rgb(255, 138, 5);
+    letter-spacing: 0.03rem
+}
+
+.cardViewButton {
+    border: none;
+    border-radius: 16px; 
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #ffffff;
+    justify-content: space-between;
+    padding: 0.4rem 1rem;
+    background-color: rgb(0, 0, 0);
+    letter-spacing: 0.03rem
+}
+
+.cardEditButton:hover{
+    background-color: rgb(255, 166, 1);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.cardViewButton:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.cardEditIcon, .cardDeleteIcon {
+    margin-top: 3px;
+}
+
+.cardDeleteButton {
+    border: none;
+    border-radius: 16px; 
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #ffffff;
+    justify-content: space-between;
+    padding: 0.4rem 1rem;
+    background-color: rgb(255, 81, 22);
+    letter-spacing: 0.03rem
+}
+
+.cardDeleteButton:hover{
+    background-color: rgb(255, 52, 1);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.cardBody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardImage {
+    position: relative; /* Important so that the absolute positioning works */
+  }
+  
+  .favoriteIcon {
+    color: rgb(255, 55, 88);
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5em;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 1;            /* make sure it's visible */
+    visibility: visible;   /* make sure it's visible */
+    transition: transform 0.2s ease;
+  }
+  
+  .favoriteIcon:hover {
+    transform: scale(1.1);
+  }
+  
